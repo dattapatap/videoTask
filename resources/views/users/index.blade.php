@@ -43,7 +43,7 @@
                                 <!-- <img src="{{asset('/storage/images/'.$video[$i]->image)}}" width="150" height="100"></img> -->
                                 <img class="playimage" src="{{asset('/storage/watermark/'.$video[$i]->watermark)}}" width="140" height=90" ></img>
 
-                                <img class="playbutton" src="{{asset('/storage/images/play-button.png')}}" video="{{$video[$i]->video}}"
+                                <img class="playbutton" src="{{asset('play-button.png')}}" video="{{$video[$i]->video}}"
                                  demo="{{$i+1}}" ></img>
                             </div>
                             <div class="col-md-8"> 
